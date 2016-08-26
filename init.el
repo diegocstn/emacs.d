@@ -2,6 +2,10 @@
 (setq user-full-name "Diego Costantino")
 (setq user-mail-address "diego@diegocostantino.com")
 
+;; disable splashscreen
+(setq inhibit-splash-screen t
+      initial-scratch-message nil)
+
 ;; use right opt key as alt and not as emacs meta
 (setq mac-option-key-is-meta t)
 (setq mac-right-option-modifier nil)
@@ -56,3 +60,12 @@
 ;; custom file
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
+
+;; enable markdown
+(add-to-list 'auto-mode-alist '("\\.md$" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.mdown$" . markdown-mode))
+(add-hook 'markdown-mode-hook
+          (lambda ()
+            (visual-line-mode t)
+            (writegood-mode t)
+            (flyspell-mode t)))
