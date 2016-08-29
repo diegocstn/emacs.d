@@ -15,6 +15,9 @@
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
                          ("marmalade" . "https://marmalade-repo.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
+;; disable dired on OSX
+(setq dired-use-ls-dired nil)
+
 ;; disable backup files
 (setq make-backup-files nil)
 
@@ -39,6 +42,7 @@
 
 ;; column number
 (setq column-number-mode t)
+(global-linum-mode 1)
 
 ;; install packages
 (load "~/.emacs.d/packages.el")
