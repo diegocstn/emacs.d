@@ -44,6 +44,9 @@
 (setq column-number-mode t)
 (global-linum-mode 1)
 
+;; default js-mode indentation
+(setq js-indent-level 2)
+
 ;; install packages
 (load "~/.emacs.d/packages.el")
 (defun diegocstn/packages-installed-p ()
