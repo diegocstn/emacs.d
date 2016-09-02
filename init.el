@@ -32,8 +32,8 @@
 (tool-bar-mode -1)
 
 ;; Tuareg
-(load "/Users/diego/.opam/4.01.0/share/emacs/site-lisp/tuareg-site-file")
-(add-to-list 'load-path "/Users/diego/.opam/4.01.0/share/emacs/site-lisp/")
+(load "~/.opam/4.02.1/share/emacs/site-lisp/tuareg-site-file.el")
+(add-to-list 'load-path "~/.opam/4.02.1/share/emacs/site-lisp/")
 (package-initialize)
 
 ;; Ido
