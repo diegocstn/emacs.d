@@ -2,5 +2,6 @@
 			     haskell-mode
 			     js2-mode
 			     monokai-theme
-			     editorconfig)
+			     editorconfig
+           tuareg)
   "Default packages")
