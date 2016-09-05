@@ -3,5 +3,6 @@
 			     js2-mode
 			     monokai-theme
 			     editorconfig
-           tuareg)
+           tuareg
+           magit)
   "Default packages")
