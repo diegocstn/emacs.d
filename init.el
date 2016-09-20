@@ -39,7 +39,10 @@
 
 ;; Ido
 (require 'ido)
-(ido-mode t)
+(setq ido-separator "\n")
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
 
 ;; column number
 (setq column-number-mode t)
