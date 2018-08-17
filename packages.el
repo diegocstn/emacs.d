@@ -5,5 +5,6 @@
 			     editorconfig
 			     tuareg
 			     utop
-			     magit)
+			     magit
+			     org)
   "Default packages")
