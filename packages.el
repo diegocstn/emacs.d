@@ -5,5 +5,6 @@
 			     tuareg
 			     utop
 			     magit
+			     swift-mode
 			     org)
   "Default packages")
