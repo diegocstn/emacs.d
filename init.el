@@ -10,10 +10,9 @@
 (setq mac-option-key-is-meta t)
 (setq mac-right-option-modifier nil)
 
-(require 'cl)
+(require 'cl-lib)
 (require 'package)
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
 ;; disable dired on OSX
 (setq dired-use-ls-dired nil)
