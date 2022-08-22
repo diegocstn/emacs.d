@@ -2,7 +2,6 @@
 			     haskell-mode
 			     monokai-theme
 			     editorconfig
-			     tuareg
 			     utop
 			     magit
 			     swift-mode
