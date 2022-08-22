@@ -28,10 +28,10 @@
 (setq ring-bell-function 'ignore)
 
 ;; remove scrollbar and menu bar
-(if (display-graphic-p)
-    (progn
-      (tool-bar-mode -1)
-      (scroll-bar-mode -1)))
+;;(if (display-graphic-p)
+;;    (progn
+;;      (tool-bar-mode -1)
+;;      (scroll-bar-mode -1)))
 
 ;; ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
