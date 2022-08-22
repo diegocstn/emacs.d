@@ -50,9 +50,6 @@
 (setq column-number-mode t)
 (global-linum-mode 1)
 
-;; default js-mode indentation
-(setq js-indent-level 2)
-
 ;; highlight paired parentheses
 (show-paren-mode 1)
 
