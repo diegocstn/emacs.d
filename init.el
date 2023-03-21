@@ -52,6 +52,9 @@
 ;; highlight paired parentheses
 (show-paren-mode 1)
 
+;; hide toolbar
+(tool-bar-mode -1)
+
 ;; install packages
 (load "~/.emacs.d/packages.el")
 (defun diegocstn/packages-installed-p ()
