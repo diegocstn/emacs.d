@@ -47,7 +47,7 @@
 
 ;; column number
 (setq column-number-mode t)
-(global-linum-mode 1)
+(global-display-line-numbers-mode 1)
 
 ;; highlight paired parentheses
 (show-paren-mode 1)
